@@ -160,7 +160,7 @@ int main(void)
   canOpenNodeSTM32.CANHandle = &hfdcan1;
   canOpenNodeSTM32.HWInitFunction = MX_FDCAN1_Init;
   canOpenNodeSTM32.timerHandle = &htim3;
-  canOpenNodeSTM32.desiredNodeID = 0x54;
+  canOpenNodeSTM32.desiredNodeID = 0x30;
   canOpenNodeSTM32.baudrate = 125;
   canopen_app_init(&canOpenNodeSTM32);
   /* USER CODE END 2 */
